@@ -20,37 +20,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
 
     <style>
         @media only screen and (min-width:900px) and (max-width:2000px) {
-            .menusss {
-                display: none;
-            }
-            .fuera{
-                position: absolute;
-                right: 0;
-                top: 70px;
-                background-color: #F39C12;
-                border-radius: 25px;
-                transform: translateX(15px);
-            }
+            
+            
             .aparece{
                 display: none;
             }
         }
         @media only screen and (min-width:100px) and (max-width:900px) {
-            .alto {
-                height: auto;
-            }
-            .fuera{
-                position: absolute;
-                bottom: 0;
-                left: 50%;
-                transform: translateY(20px);
-                background-color: #F39C12;
-                border-radius: 25px;
-            }
+           
+           
             .desaparece{
                 display: none;
             }
@@ -73,50 +56,38 @@
 </head>
 <body>
     <!-- seccion 1 portada-->
-    <div class="jumbotron-fluid fondo">
-        <div class="container pb-3 pt-5">
-            <img class="lazyload mb-5" data-src="imagenes/favicon.png" width="80px" alt="">
+    <div class="jumbotron-fluid fondo py-5">
+        <div class="container py-5">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col  rounded shadow p-4 " style="background-color: rgba(252, 252, 252, 0.6);"  >
-                    <h1 class="text-primary text-center mb-3 text-uppercase" style="font-weight: 800; font-size: 38px;" >Vende Productos Natura</h1>
+                <div class="col  rounded shadow p-4 " style="background-color: rgba(252, 252, 252, 0.8);"  >
+                    <div class="d-flex">
+                        <img class="lazyload ms-auto me-auto" data-src="imagenes/favicon.png" width="100px" alt="">
+                    </div>
+                    <h1 class="text-center mb-3 " style="font-weight: bold; font-size: 50px; color: #1E232E;" >Vende Productos Natura</h1>
                     <h2 class="mb-4 text-center" style="font-size: 25px; font-weight: 500;" >Comienza a ganar dinero extra por fomentar la belleza. </h2>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus similique alias rem ipsum nisi velit dolorem corporis id hic et dicta ipsam sequi officia nobis, asperiores iste quas perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum reiciendis molestias provident ex iure, veritatis magni non. Natus, molestiae, omnis tempora molestias quaerat asperiores aut, dolor assumenda et sequi exercitationem. </p>
-                    <a class="btn btn-primary text-white w-100 shadow" href="#registro"  style="font-size: 20px; font-weight: 600;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a>
+                    <p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus similique alias rem ipsum nisi velit dolorem corporis id hic et dicta ipsam sequi officia nobis, asperiores iste quas perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum reiciendis molestias provident ex iure, veritatis magni non. Natus, molestiae, omnis tempora molestias quaerat asperiores aut, dolor assumenda et sequi exercitationem. </p>
+                    <a class="btn btn-primary text-white w-100 shadow" href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a>
                 </div>
                 <div class="col"></div>
-            </div>
-            <div class="row row-cols-1 row-cols-lg-3 pt-5 ">
-                <div class="col mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <i class="bi bi-box2-heart text-white fs-3 pe-3"></i> 
-                    <p class="text-white small mb-0">Obtén increíbles productos de regalos de acuerdo a tu pedido.</p>   
-                </div>
-                <div class="col mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <i class="bi bi-cash-coin text-white fs-3 pe-3"></i>
-                    <p class="text-white small mb-0"> Decide cuanto ganas y administra tus propios horarios.</p>   
-                </div>
-                <div class="col mb-3" style="display: flex; justify-content: center; align-items: center;">
-                    <i class="bi bi-person-video3 text-white fs-3 pe-3"></i>
-                    <p class="text-white small mb-0">Accede a capacitación profesional para impulsar tu negocio.</p>
-                </div>
             </div>
         </div>
     </div>
     <!-- seccion 2 video-->
-    <div class="container-fluid bg-secondary">
+    <div class="container-fluid py-5" style="background-color: #287A70;">
         <div class="container pb-5 pt-5 " >
-            <h2 class="pb-3 text-center mb-4">¡Emprende tu propio negocio!</h2>
+            <h2 class="pb-3 text-center mb-4 text-white">¡Emprende tu propio negocio!</h2>
             <div style="max-width: 700px; margin: 0 auto 20px auto;">
                 <div class="embed-responsive embed-responsive-16by9 ">
                     <iframe class="lazyload rounded shadow" data-src="https://www.youtube.com/embed/7IjsNdp48bU" title="YouTube video player" width="100%" height="350" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row pt-5 ">
                 <div class="col-md-6 col-sm-12 col-xs-12 ">
                     <div class="embed-responsive embed-responsive-16by9 ">
                         <img class="img-fluid lazyload rounded shadow mb-3" data-src="imagenes/vendernatura2.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-6 col-sm-12 col-xs-12 text-white">
                     <p>Queremos que construyas tu propio negocio, accediendo a entrenamientos y capacitaciones que te ayudarán a crecer, conociendo a personas maravillosas que te acompañarán en este camino. 
                     <br><br> Genera ingresos de forma independiente administrando tu propio negocio.</p>
                     <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
@@ -199,66 +170,31 @@
             </div>
         </div>
     </div>
-    <!-- seccion 4 testimonios  
-    <div class="container-fluid  pb-5" >
-        <div class="container pt-5 pb-5">
-            <h2 class="pb-5 text-center ">Testimonios de Consultoras</h2>
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 ">
-                <div class="col mb-3">
-                    <div class="card shadow h-100">
-                        <div class="card-body">
-                            <p> <em>Realicé mi registro y recibí la ayuda que necesitaba para realizar mis ventas con
-                                    natura, todo el proceso fué realmente sencillo, fácil y rápido.</em></p>
-                            <p> <strong> Lorena Moreno</strong> <br> <em> Consultora Natura, Nivel: Bronce </em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card shadow h-100">
-                        <div class="card-body">
-                            <p class="card-text"> <em> Una amiga me recomendó registrarme a natura. Mi registro fué
-                                    rápido y logré comenzar a vender en muy poco tiempo. </em></p>
-                            <br>
-                            <p> <strong> Cindy López </strong> <br> <em> Consultora Natura, Nivel: Platino </em> </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-3">
-                    <div class="card shadow h-100">
-                        <div class="card-body">
-                            <p> <em> Realicé mi registro e inmediatamente recibí la atención necesaria que me permitió
-                                    conocer natura y las acciones para comenzar con mis ventas. </em></p>
-                            <p><strong>Ivonne Castañeda</strong> <br> <em> Consultora Natura, Nivel: Oro </em> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
     <div class="container-fluid pt-5" id="requisitos">
-        <div class="container  pt-4 pb-5 ">
-            <h4 class="text-center  fw-bold fs-1 mb-5"> Comienza registrándote </h4>
+        <div class="container  pt-4 pb-5">
+            <h2 class="text-center mb-5"> Comienza registrándote </h2>
             <div class="row row-cols-1  row-cols-lg-2 ">
-                <div class="col pt-3 ">
-                    <h2 class="text-center ">Requisitos para ser consultora</h2>
-            <h5 class="fs-5 fw-bolder mb-4 text-center">Requisitos <u> obligatorios </u> para ser Consultora Natura:
-            </h5>
-                    <p class="card-text textito"> <i class="bi bi-file-earmark-text fs-2 text-primary"></i> &nbsp; &nbsp; <strong> Comprobante de Domicilio </strong></p>       
-                    <p class="card-text "> <i class="bi bi-credit-card-2-front fs-2 text-primary"></i> &nbsp; &nbsp; <strong> Identificacion oficial </strong> </p>
-                    <p class="card-text"> <strong>Importante: </strong> Deberás llenar los datos del formulario de este sitio y enviar copia o captura de tu identificación y comprobante a <b>info@quierovender.com</b> para completar correctamente tu registro.</p>
-                    <h2 class="text-center pt-5 ">Como registrarte en Natura</h2>
-                    <h5 class="fs-5 fw-bolder mb-4 text-center mt-4">Sigue las instrucciones para completar tu registro:</h5>
-                        <h6 class="text-primary fs-3"> Paso 1 </h6>
+                <div class="col pt-3">
+                    <div class="mb-4">
+                        <h3 class=" ">Requisitos para ser consultora</h3>
+                        <h5 class="fs-5 mb-3">Requisitos <u> obligatorios </u> para ser Consultora Natura: </h5>
+                        <p class="card-text mb-0"> <i class="bi bi-file-earmark-text fs-2 text-primary"></i> &nbsp; &nbsp; <strong> Comprobante de Domicilio </strong></p>       
+                        <p class="card-text mnb-0"> <i class="bi bi-credit-card-2-front fs-2 text-primary"></i> &nbsp; &nbsp; <strong> Identificacion oficial </strong> </p>
+                        <p class="card-text"> <strong>Importante: </strong> Deberás llenar los datos del formulario de este sitio y enviar copia o captura de tu identificación y comprobante a <b>info@quierovender.com</b> para completar correctamente tu registro.</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-0">Como registrarte en Natura</h3>
+                        <h5 class="fs-5 mb-4 ">Sigue las instrucciones para completar tu registro:</h5>
+                        <h6 class="text-primary fs-5"> Paso 1 </h6>
                         <h6 class="card-title">Completa correctamente tu registro</h6>
                         <p class="card-text text-muted mb-0">Completa el formulario de este sitio y envía tu documentación.</p>
-                        <h6 class="text-primary fs-3"> Paso 2 </h6>
+                        <h6 class="text-primary fs-5"> Paso 2 </h6>
                         <h6 class="card-title">Recibe ayuda para realizar tu pedido</h6>
                         <p class="card-text text-muted mb-0">Uno de nuestros asesores te contactará para notificarte que tu registro ha sido exitoso o notificarte algún inconveniente con el mismo.</p>
-                        <h6 class="text-primary fs-3"> Paso 3 </h6>
+                        <h6 class="text-primary fs-5"> Paso 3 </h6>
                         <h6 class="card-title">  Vende productos natura y obtén ingresos</h6>
                         <p class="card-text text-muted">Una vez registrado(a), realiza tu primer pedido como consultora natura.   Ofrece una consultoría de calidad a tus clientes y obtén ingresos cada ciclo de ventas.</p>
+                    </div>
                 </div>
                 <div class="col pt-3 ">
                     <!-- Begin Mailchimp Signup Form -->
