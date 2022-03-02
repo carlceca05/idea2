@@ -21,19 +21,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
 
     <style>
+        .poppins{
+            font-family: 'Poppins', sans-serif;
+        }
         @media only screen and (min-width:900px) and (max-width:2000px) {
-            
-            
             .aparece{
                 display: none;
             }
         }
         @media only screen and (min-width:100px) and (max-width:900px) {
-           
-           
             .desaparece{
                 display: none;
             }
@@ -59,42 +59,40 @@
     <div class="jumbotron-fluid fondo py-5">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col  rounded shadow p-4 " style="background-color: rgba(252, 252, 252, 0.8);"  >
+                <div class="col rounded shadow p-4 " style="background-color: rgba(252, 252, 252, 0.8);"  >
                     <div class="d-flex">
                         <img class="lazyload ms-auto me-auto" data-src="imagenes/favicon.png" width="100px" alt="">
                     </div>
-                    <h1 class="text-center mb-3 " style="font-weight: bold; font-size: 50px; color: #1E232E;" >Vende Productos Natura</h1>
-                    <h2 class="mb-4 text-center" style="font-size: 25px; font-weight: 500;" >Comienza a ganar dinero extra por fomentar la belleza. </h2>
-                    <p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus similique alias rem ipsum nisi velit dolorem corporis id hic et dicta ipsam sequi officia nobis, asperiores iste quas perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum reiciendis molestias provident ex iure, veritatis magni non. Natus, molestiae, omnis tempora molestias quaerat asperiores aut, dolor assumenda et sequi exercitationem. </p>
-                    <a class="btn btn-primary text-white w-100 shadow" href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a>
+                    <h1 class="text-center text-lg-start mb-3 poppins" style="font-weight: bold; font-size: 40px; color: #1E232E;">Vende Productos Natura</h1>
+                    <h2 class="" style="font-size: 20px; font-weight: 500;" >Comienza a ganar dinero extra por fomentar la belleza. </h2>
+                    <p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus similique alias rem ipsum nisi velit dolorem corporis id hic et dicta ipsam sequi officia nobis, asperiores iste quas perferendis! </p>
+                    <a class="btn btn-primary " href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a>
                 </div>
-                <div class="col"></div>
+                <div class="col "></div>
             </div>
         </div>
     </div>
     <!-- seccion 2 video-->
-    <div class="container-fluid py-5" style="background-color: #287A70;">
+    <div class="container-fluid py-5">
         <div class="container pb-5 pt-5 " >
-            <h2 class="pb-3 text-center mb-4 text-white">¡Emprende tu propio negocio!</h2>
-            <div style="max-width: 700px; margin: 0 auto 20px auto;">
-                <div class="embed-responsive embed-responsive-16by9 ">
-                    <iframe class="lazyload rounded shadow" data-src="https://www.youtube.com/embed/7IjsNdp48bU" title="YouTube video player" width="100%" height="350" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-                </div>
-            </div>
-            <div class="row pt-5 ">
-                <div class="col-md-6 col-sm-12 col-xs-12 ">
-                    <div class="embed-responsive embed-responsive-16by9 ">
-                        <img class="img-fluid lazyload rounded shadow mb-3" data-src="imagenes/vendernatura2.png" alt="">
+            <h2 class="text-center mb-4 text-white">¡Emprende tu propio negocio!</h2>
+            <div class="row pt-5 "  >
+                <div class="col-md-6 col-sm-12 col-xs-12 position-relative" >
+                    <div class="" style="position: absolute; left: 0%; top: -20%; z-index: -2; " >
+                        <img class="lazyload shadow" data-src="imagenes/vendernatura2.png" width="600px" alt="">
+                    </div>
+                    <div class="" style="position: absolute; right: -20%;bottom: -40%;  z-index: -1; " >
+                        <img class="lazyload shadow" data-src="imagenes/vendernatura1.png" width="600px" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 text-white">
-                    <p>Queremos que construyas tu propio negocio, accediendo a entrenamientos y capacitaciones que te ayudarán a crecer, conociendo a personas maravillosas que te acompañarán en este camino. 
-                    <br><br> Genera ingresos de forma independiente administrando tu propio negocio.</p>
-                    <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
-                    <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
-                    <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
-                    <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
-                    <p> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="bg-light p-4" style="z-index: 9; outline: 1px solid orange; box-shadow: 1px 1px 10px  black;">
+                        <h3 class=""> Desarrolla tu negocio <br> ahora </h3>
+                        <p>Queremos que construyas tu propio negocio, accediendo a entrenamientos y capacitaciones que te ayudarán a crecer, conociendo a personas maravillosas que te acompañarán en este camino. <br><br> Genera ingresos de forma independiente administrando tu propio negocio.</p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra  </p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra  </p>
+                        <a class="btn btn-primary text-white shadow" href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short" ></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,10 +109,8 @@
                     <i class="bi bi-percent text-primary fs-2 me-3"></i>
                     <div>
                         <h6 class="mb-0">Descuentos en productos</h6>
-                        <p class="small">Aprovecha los decuentos exclusivos a consultoras y genera ganancias netas hasta del 150% por la
-                            venta de productos natura.</p>
+                        <p class="small">Aprovecha los decuentos exclusivos a consultoras y genera ganancias netas hasta del 150% por la venta de productos natura.</p>
                     </div>
-                    
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex" >
                     <i class="bi bi-truck fs-2 text-primary me-3"></i>
