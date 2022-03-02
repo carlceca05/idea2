@@ -11,14 +11,6 @@
   background-position: center;
 }
 
-.parallax {
-  background-image: url("../imagenes/fondo-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
-
 .movi2 {
   position: absolute;
   right: -20%;
