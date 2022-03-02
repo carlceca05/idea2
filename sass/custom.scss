@@ -3,6 +3,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.fondoiconos{
+	background-image:  url("../imagenes/fondoiconos.webp"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .parallax{
 	background-image: url("../imagenes/fondo-1.jpg");
 	background-size: cover;
@@ -10,16 +15,32 @@
 	background-attachment: fixed;
 	background-position: center;
 }
+.movi2{
+	position: absolute; 
+	right: -20%;
+	bottom: -40%;  
+	z-index: -1; 
+}
 @media only screen and (min-width:900px) and (max-width:2000px){
-
-	
+	.movi{
+		position: absolute; 
+		left: 0%; 
+		top: -20%; 
+		z-index: -2;
+	}
+	.sombreado{
+		box-shadow: 1px 1px 10px gray;
+		z-index: 9;
+		background-color: #fff;
+	}
 }
 @media only screen and (min-width:100px) and (max-width:900px){
- 	
 	.fondo{
-		background-image: url(../imagenes/quierovendernaturacom-movil.jpg);
+		background-image: url("../imagenes/fondo-1.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
 	}
-  
 }
 
 $font-family-sans-serif:'DM Sans', sans-serif;

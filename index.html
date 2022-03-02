@@ -28,15 +28,28 @@
         .poppins{
             font-family: 'Poppins', sans-serif;
         }
+        .movi2{
+	position: absolute; 
+	right: -20%;
+	bottom: -20%;  
+	z-index: -1; 
+}
         @media only screen and (min-width:900px) and (max-width:2000px) {
             .aparece{
                 display: none;
             }
+            .movi{
+		position: absolute; 
+		left: 0%; 
+		top: -10%; 
+		z-index: -2;
+	}
         }
         @media only screen and (min-width:100px) and (max-width:900px) {
             .desaparece{
                 display: none;
             }
+     
         }
         .arriba {
             position: fixed;
@@ -56,17 +69,17 @@
 </head>
 <body>
     <!-- seccion 1 portada-->
-    <div class="jumbotron-fluid fondo py-5">
-        <div class="container py-5">
+    <div class="jumbotron-fluid fondo py-0 py-lg-5 ">
+        <div class="container py-0 py-lg-5">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col rounded shadow p-4 " style="background-color: rgba(252, 252, 252, 0.8);"  >
                     <div class="d-flex">
                         <img class="lazyload ms-auto me-auto" data-src="imagenes/favicon.png" width="100px" alt="">
                     </div>
                     <h1 class="text-center text-lg-start mb-3 poppins" style="font-weight: bold; font-size: 40px; color: #1E232E;">Vende Productos Natura</h1>
-                    <h2 class="" style="font-size: 20px; font-weight: 500;" >Comienza a ganar dinero extra por fomentar la belleza. </h2>
-                    <p class="mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus similique alias rem ipsum nisi velit dolorem corporis id hic et dicta ipsam sequi officia nobis, asperiores iste quas perferendis! </p>
-                    <a class="btn btn-primary " href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a>
+                    <h2 class="" style="font-size: 20px; font-weight: 500;" >Comienza a ganar dinero extra por fomentar la belleza </h2>
+                    <p class="mb-4"> Entérate como vender Natura puede ayudarte en la vida, desarrollando tu propio negocio o simplemente obteniendo ingresos extra.</p>
+                    <p class="text-center text-lg-start"><a class="btn btn-primary " href="#registro"  style=" font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short"     ></i></a></p>
                 </div>
                 <div class="col "></div>
             </div>
@@ -75,23 +88,26 @@
     <!-- seccion 2 video-->
     <div class="container-fluid py-5">
         <div class="container pb-5 pt-5 " >
-            <h2 class="text-center mb-4 text-white">¡Emprende tu propio negocio!</h2>
-            <div class="row pt-5 "  >
+            <h3 class=" text-center text-lg-start fw-bold poppins ">¡Emprende tu propio negocio!</h3>
+            <p class="mb-0 mb-lg-5"> Conoce los beneficios que tienes al emprender tu negocio con Natura, los límites los pones tú con tus ventas. </p>
+            <div class="row pt-4 pt-lg-5" >
                 <div class="col-md-6 col-sm-12 col-xs-12 position-relative" >
-                    <div class="" style="position: absolute; left: 0%; top: -20%; z-index: -2; " >
-                        <img class="lazyload shadow" data-src="imagenes/vendernatura2.png" width="600px" alt="">
+                    <div class="movi" style=" " >
+                        <img class="lazyload shadow img-fluid" data-src="imagenes/vendernatura2.png" width="" alt="">
                     </div>
-                    <div class="" style="position: absolute; right: -20%;bottom: -40%;  z-index: -1; " >
-                        <img class="lazyload shadow" data-src="imagenes/vendernatura1.png" width="600px" alt="">
+                    <div class="movi2 desaparece"  >
+                        <img class="lazyload shadow " data-src="imagenes/vendernatura1.png" width="500px" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 ">
-                    <div class="bg-light p-4" style="z-index: 9; outline: 1px solid orange; box-shadow: 1px 1px 10px  black;">
-                        <h3 class=""> Desarrolla tu negocio <br> ahora </h3>
-                        <p>Queremos que construyas tu propio negocio, accediendo a entrenamientos y capacitaciones que te ayudarán a crecer, conociendo a personas maravillosas que te acompañarán en este camino. <br><br> Genera ingresos de forma independiente administrando tu propio negocio.</p>
-                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra  </p>
-                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra  </p>
-                        <a class="btn btn-primary text-white shadow" href="#registro"  style="font-size: 20px; font-weight: 500;"> Inscríbete aquí <i class="bi bi-arrow-right-short" ></i></a>
+                    <div class="p-4 sombreado" >
+                        <h4 class="fw-bold poppins"> Beneficios de emprender con Natura</h4>
+                        <p>Queremos que construyas tu propio negocio, accediendo a entrenamientos y capacitaciones que te ayudarán a crecer, conociendo a personas maravillosas que te acompañarán en este camino.</p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra obteniendo productos gratis. </p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Genera ingresos extra obteniendo productos gratis. </p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Administra tus propios horarios, sé tu propio jefe.  </p>
+                        <p> <i class="bi bi-caret-right-fill text-primary "></i> Obtén capacitación para aumentar tus ventas.  </p>
+                        <a class="btn btn-primary shadow" href="#registro"  style=" "> Inscríbete aquí <i class="bi bi-arrow-right-short" ></i></a>
                     </div>
                 </div>
             </div>
@@ -99,10 +115,10 @@
     </div>
 
     <!-- seccion 3 iconos-->
-    <div class="container-fluid ">
+    <div class="container-fluid fondoiconos">
         <div class="container pb-5 pt-5">
             <div class="row p-3">
-                <h2 class="text-center p-3 ">Beneficios de ser consultora natura</h2>
+                <h3 class="text-center text-lg-start poppins fw-bold p-3 ">Beneficios de ser consultora natura</h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex" >
